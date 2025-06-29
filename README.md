@@ -1,33 +1,33 @@
-# vue-project
+# Anickme Personal Blog
 
-This template should help get you started developing with Vue 3 in Vite.
+Look at the [https://anickme.github.io/](https://anickme.github.io/), will be updated in future.
 
-## Recommended IDE Setup
+## Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Make sure to install dependencies:
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Development Server
 
-```sh
+Start the development server on `http://localhost:3000`:
+
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Production
 
-```sh
-npm run build
+Build the application for production to create static web in `dist` folder:
+
+```bash
+npx nuxt generate
+```
+
+Push the project into `gh_pages` branch to deploy:
+
+```bash
+git subtree push --prefix dist origin gh-pages
 ```
