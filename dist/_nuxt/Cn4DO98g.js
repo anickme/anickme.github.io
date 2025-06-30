@@ -1,0 +1,1 @@
+import{L as n,M as s,N as r,O as o,P as i}from"./DO1NlycS.js";function u(a){var t;const e=a||s();return((t=e==null?void 0:e.ssrContext)==null?void 0:t.head)||(e==null?void 0:e.runWithContext(()=>{if(r())return o(i)}))}function d(a,e={}){const t=u(e.nuxt);if(t)return n(a,{head:t,...e})}export{u as i,d as u};
