@@ -1,0 +1,19 @@
+upagebody {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+upagebody h2 {
+    font-size: var(--text-2xl); /* 1.5rem (24px) */ 
+    line-height: var(--text-2xl--line-height); /* calc(2 / 1.5) */
+    margin-top: 1em;
+}
+
+upagebody p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+upagebody ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}

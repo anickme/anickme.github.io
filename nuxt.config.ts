@@ -4,5 +4,7 @@ export default defineNuxtConfig({
     baseURL: '/'
   },
   compatibilityDate: '2025-05-15',
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  modules: ['@nuxt/content', '@nuxt/ui'],
+  css: ['~/assets/css/main.css']
 })

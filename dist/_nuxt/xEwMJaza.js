@@ -1,1 +1,0 @@
-import{_ as t,x as a,z as n,y as o}from"./CB0pyqaw.js";const r={};function s(c,e){return o(),a("div",null,e[0]||(e[0]=[n("h1",null,"Halaman About",-1)]))}const u=t(r,[["render",s]]);export{u as default};
